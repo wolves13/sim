@@ -234,30 +234,29 @@ var execute = function () {
     //////////////////////////
     OSVars.ruleset[89][3]=true;
     //1part
-    OSVars.ruleset[52][5]=true;
-    OSVars.ruleset[51][5]=true;
+    OSVars.ruleset[223][5]=true;
+    OSVars.ruleset[222][5]=true;
     OSVars.ruleset[6][2]=true;
     OSVars.ruleset[8][4]=true;
-    OSVars.ruleset[6][41]=true;
+    OSVars.ruleset[6][213]=true;
     OSVars.ruleset[1][9]=true;
-    OSVars.ruleset[6][51]=true;
+    OSVars.ruleset[6][222]=true;
     OSVars.ruleset[6][12]=true;
     OSVars.ruleset[10][7]=true;
+ 
     
-    //
-   
-   //connection
-    OSVars.ruleset[13][41]=true;
-    OSVars.ruleset[80][13]=true;
-    OSVars.ruleset[81][15]=true;
-    OSVars.ruleset[17][14]=true;
-    OSVars.ruleset[20][17]=true;
+    OSVars.ruleset[13][213]=true;
+    OSVars.ruleset[212][13]=true;
+    OSVars.ruleset[210][15]=true;
+    OSVars.ruleset[201][24]=true;
     OSVars.ruleset[11][19]=true;
     OSVars.ruleset[24][15]=true;
     OSVars.ruleset[24][16]=true;
-    
+    OSVars.ruleset[14][11]=true;
     
     OSVars.ruleset[12][8]=true;
+    
+    
     
     //glider 0parts
     for(var k=1;k<9;k++){ 	
@@ -267,11 +266,13 @@ var execute = function () {
     OSVars.ruleset[2][5]=true;
     OSVars.ruleset[8][11]=true;
     OSVars.ruleset[8][5]=true;
-   
+    OSVars.ruleset[17][14]=true;
+    OSVars.ruleset[20][17]=true;
+    OSVars.ruleset[23][20]=true;
     //
     
     //Completion
-    for(var i=0;i<200;i++){
+    for(var i=0;i<300;i++){
     	for(var j=0;j<100;j++){
     		if(OSVars.ruleset[i][j] == true){OSVars.ruleset[j][i]  = true;}
     	}
