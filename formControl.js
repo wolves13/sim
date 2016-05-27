@@ -230,12 +230,16 @@ var execute = function () {
     */
     
     console.log('execute button pushed...');
+    
+    
+    //////////////////////////
     //RuleSet
     //////////////////////////
     OSVars.ruleset[89][3]=true;
     //1part
-    OSVars.ruleset[223][5]=true;
+    OSVars.ruleset[223][7]=true;
     OSVars.ruleset[222][5]=true;
+    OSVars.ruleset[212][7]=true;
     OSVars.ruleset[6][2]=true;
     OSVars.ruleset[8][4]=true;
     OSVars.ruleset[6][213]=true;
@@ -248,13 +252,13 @@ var execute = function () {
     OSVars.ruleset[13][213]=true;
     OSVars.ruleset[212][13]=true;
     OSVars.ruleset[210][15]=true;
-    OSVars.ruleset[201][24]=true;
+   
     OSVars.ruleset[11][19]=true;
     OSVars.ruleset[24][15]=true;
     OSVars.ruleset[24][16]=true;
     OSVars.ruleset[14][11]=true;
     
-    OSVars.ruleset[12][8]=true;
+    OSVars.ruleset[12][222]=true;
     
     
     
@@ -270,6 +274,33 @@ var execute = function () {
     OSVars.ruleset[20][17]=true;
     OSVars.ruleset[23][20]=true;
     //
+    //0parts others
+    OSVars.ruleset[12][8]=true;
+    //
+    
+    //1parts+0
+    OSVars.ruleset[3][218]=true;
+    OSVars.ruleset[2][219]=true;    
+    OSVars.ruleset[7][89]=true;
+    OSVars.ruleset[7][111]=true;
+	OSVars.ruleset[12][3]=true;
+	OSVars.ruleset[12][218]=true;
+    OSVars.ruleset[12][4]=true;
+    OSVars.ruleset[10][4]=true;
+    OSVars.ruleset[206][15]=true;
+
+    //connections
+    OSVars.ruleset[26][23]=true;
+    OSVars.ruleset[27][22]=true;
+    OSVars.ruleset[29][26]=true;
+    OSVars.ruleset[30][25]=true;
+    //OSVars.ruleset[25][23]=true;
+    
+    
+    
+    OSVars.ruleset[24][210]=true;
+    
+    
     
     //Completion
     for(var i=0;i<300;i++){
