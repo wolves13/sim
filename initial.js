@@ -61,7 +61,7 @@ setSeed(29, 7 , { beadType: 0, index : -3, bondNum : 0 } );
 
 
 
-setSeed(38, 7 , { beadType: 100, index : -3, bondNum : 0 } );
+setSeed(38, 7 , { beadType: 225, index : -3, bondNum : 0 } );
 setSeed(40, 9 , { beadType: 100, index : -3, bondNum : 0 } );
 setSeed(41, 10 , { beadType: 25, index : -3, bondNum : 0 } );
 setSeed(42, 10 , { beadType: 100, index : -3, bondNum : 0 } );
@@ -94,7 +94,7 @@ setSeed(27, 7 , { beadType: 224, index : -3, bondNum : 0 } );
 */
 
 //0parts lower
- 
+/*
 setSeed(30, 7 , { beadType: 201, index : -3, bondNum : 0 } );
 setSeed(31, 7 , { beadType: 210, index : -3, bondNum : 0 } );
 setSeed(32, 7 , { beadType: 211, index : -3, bondNum : 0 } );
@@ -103,10 +103,10 @@ setSeed(34, 7 , { beadType: 213, index : -3, bondNum : 0 } );
 setSeed(35, 7 , { beadType: 222, index : -3, bondNum : 0 } );
 setSeed(36, 7 , { beadType: 223, index : -3, bondNum : 0 } );
 setSeed(37, 7 , { beadType: 224, index : -3, bondNum : 0 } );
-
+*/
 
 //1parts lower
-/*
+
 setSeed(30, 7 , { beadType: 201, index : -3, bondNum : 0 } );
 setSeed(31, 7 , { beadType: 210, index : -3, bondNum : 0 } );
 setSeed(32, 7 , { beadType: 211, index : -3, bondNum : 0 } );
@@ -115,7 +115,7 @@ setSeed(34, 7 , { beadType: 213, index : -3, bondNum : 0 } );
 setSeed(35, 7 , { beadType: 218, index : -3, bondNum : 0 } );
 setSeed(36, 7 , { beadType: 219, index : -3, bondNum : 0 } );
 setSeed(37, 7 , { beadType: 224, index : -3, bondNum : 0 } );
-*/
+
 //
 
 
@@ -129,6 +129,7 @@ OSVars.w_path = [
 
 
 setSeed(39, 9 , { beadType: 29, index : -3, bondNum : 0 } );
+
 
 
 // seedとの境目がここで決まる.

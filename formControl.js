@@ -232,7 +232,7 @@ var execute = function () {
     console.log('execute button pushed...');
         ////////////////////
 	//RuleSet
-   //////////////////////////
+  //////////////////////////
     OSVars.ruleset[28][3]=true;OSVars.ruleset[33][28]=true;
     OSVars.ruleset[3][149]=true;
     //1part
@@ -312,6 +312,7 @@ var execute = function () {
 
     //connections
     OSVars.ruleset[26][23]=true;
+    OSVars.ruleset[30][26]=true;
     OSVars.ruleset[27][22]=true;
     OSVars.ruleset[29][26]=true;
     OSVars.ruleset[30][25]=true;
@@ -353,12 +354,14 @@ var execute = function () {
     OSVars.ruleset[79][49]=true;
     OSVars.ruleset[79][43]=true;
     OSVars.ruleset[79][45]=true;
+    OSVars.ruleset[88][45]=true;
     //inside
     OSVars.ruleset[77][82]=true;
     OSVars.ruleset[78][81]=true;
     OSVars.ruleset[74][83]=true;
     OSVars.ruleset[85][80]=true;
     OSVars.ruleset[88][79]=true;
+    
     //2nd-0
     OSVars.ruleset[90][93]=true;
     OSVars.ruleset[95][86]=true;
@@ -371,6 +374,7 @@ var execute = function () {
    	OSVars.ruleset[94][89]=true;
     OSVars.ruleset[97][92]=true;
     //2nd-0-low
+    
     OSVars.ruleset[120][7]=true;
     OSVars.ruleset[121][6]=true;
     OSVars.ruleset[121][3]=true;
@@ -386,6 +390,7 @@ var execute = function () {
 		}
 	}
     //2nd-low-outside
+    OSVars.ruleset[118][15]=true;
     OSVars.ruleset[109][19]=true;
     OSVars.ruleset[109][13]=true;
     OSVars.ruleset[109][15]=true;
