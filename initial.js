@@ -120,10 +120,10 @@ setSeed(37, 7 , { beadType: 224, index : -3, bondNum : 0 } );
 
 
 //start point
-setSeed(39, 8 , { beadType: 28, index : -3, bondNum : 0 } );//start points +0
-setSeed(40, 10 , { beadType: 30, index : -3, bondNum : 0 } );//start points +1
+setSeed(39, 8 , { beadType: 30, index : -3, bondNum : 0 } );//start points +0
+setSeed(40, 10 , { beadType: 28, index : -3, bondNum : 0 } );//start points +1
 OSVars.w_path = [
-    {x: 40, y: 10}
+    {x: 39, y: 8}
 ];
 
 

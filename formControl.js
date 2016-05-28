@@ -235,7 +235,9 @@ var execute = function () {
   //////////////////////////
     OSVars.ruleset[28][3]=true;OSVars.ruleset[33][28]=true;
     OSVars.ruleset[3][149]=true;
+    OSVars.ruleset[3][29]=true;OSVars.ruleset[33][29]=true;
     //1part
+    OSVars.ruleset[219][3]=true;OSVars.ruleset[219][33]=true;
     OSVars.ruleset[6][2]=true;
     OSVars.ruleset[8][4]=true;
     OSVars.ruleset[1][9]=true;
@@ -299,7 +301,7 @@ var execute = function () {
     OSVars.ruleset[12][4]=true;
     OSVars.ruleset[10][4]=true;
     OSVars.ruleset[15][206]=true;
-    OSVars.ruleset[3][218]=true;
+    OSVars.ruleset[3][218]=true;//OSVars.ruleset[6][218]=true;
     OSVars.ruleset[2][219]=true;    
     OSVars.ruleset[12][218]=true;
 
@@ -321,6 +323,7 @@ var execute = function () {
     OSVars.ruleset[100][33]=true;OSVars.ruleset[100][31]=true;
     OSVars.ruleset[103][98]=true;
     OSVars.ruleset[100][37]=true;
+    OSVars.ruleset[100][91]=true;
     //
     
     //upper
@@ -365,22 +368,30 @@ var execute = function () {
     //2nd-0
     OSVars.ruleset[90][93]=true;
     OSVars.ruleset[95][86]=true;
-    OSVars.ruleset[89][37]=true;
-    OSVars.ruleset[90][36]=true;
+    OSVars.ruleset[90][37]=true;
+    OSVars.ruleset[91][36]=true;
     OSVars.ruleset[91][33]=true;
-    OSVars.ruleset[91][34]=true;
+    OSVars.ruleset[90][34]=true;
    	//2nd-1
    	OSVars.ruleset[91][86]=true;
    	OSVars.ruleset[94][89]=true;
     OSVars.ruleset[97][92]=true;
+    OSVars.ruleset[120][117]=true;
+    /* backup
+    OSVars.ruleset[91][86]=true;
+   	OSVars.ruleset[94][89]=true;
+    OSVars.ruleset[97][92]=true;
+    */
     //2nd-0-low
-    
+    OSVars.ruleset[119][7]=true;
     OSVars.ruleset[120][7]=true;
-    OSVars.ruleset[121][6]=true;
+    OSVars.ruleset[120][6]=true;
+    //OSVars.ruleset[121][6]=true;
     OSVars.ruleset[121][3]=true;
-    OSVars.ruleset[121][4]=true;
-    
-    
+    OSVars.ruleset[120][4]=true;
+    OSVars.ruleset[121][1]=true;
+    OSVars.ruleset[122][3]=true;
+   
     //2nd-low
     OSVars.ruleset[106][27]=true;OSVars.ruleset[106][25]=true;
     OSVars.ruleset[106][101]=true;
