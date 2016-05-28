@@ -232,35 +232,46 @@ var execute = function () {
     console.log('execute button pushed...');
         ////////////////////
 	//RuleSet
-    //////////////////////////
-    OSVars.ruleset[89][3]=true;
+   //////////////////////////
+    OSVars.ruleset[28][3]=true;OSVars.ruleset[33][28]=true;
+    OSVars.ruleset[3][149]=true;
     //1part
-    OSVars.ruleset[223][7]=true;
-    //OSVars.ruleset[223][5]=true;
-    OSVars.ruleset[222][5]=true;
-    OSVars.ruleset[212][7]=true;
     OSVars.ruleset[6][2]=true;
     OSVars.ruleset[8][4]=true;
-    OSVars.ruleset[6][213]=true;
     OSVars.ruleset[1][9]=true;
-    OSVars.ruleset[6][222]=true;
     OSVars.ruleset[6][12]=true;
     OSVars.ruleset[10][7]=true;
- 
-    
-    OSVars.ruleset[13][213]=true;
-    OSVars.ruleset[212][13]=true;
-    OSVars.ruleset[210][15]=true;
-    OSVars.ruleset[201][24]=true;
     OSVars.ruleset[11][19]=true;
     OSVars.ruleset[24][15]=true;
     OSVars.ruleset[24][16]=true;
     OSVars.ruleset[14][11]=true;
-    
+    //outside
+    OSVars.ruleset[6][222]=true;
+    OSVars.ruleset[6][213]=true;
     OSVars.ruleset[12][222]=true;
+    OSVars.ruleset[7][223]=true;
+    OSVars.ruleset[5][222]=true;
+    OSVars.ruleset[7][212]=true;
+    OSVars.ruleset[13][213]=true;
+    OSVars.ruleset[13][212]=true;
+    OSVars.ruleset[15][210]=true;
+    OSVars.ruleset[24][210]=true;
     
-    
-    
+    //
+	//upper outside
+	OSVars.ruleset[36][222]=true;
+	OSVars.ruleset[36][213]=true;
+	OSVars.ruleset[42][222]=true;
+	OSVars.ruleset[37][223]=true;
+	OSVars.ruleset[35][222]=true;
+	OSVars.ruleset[37][212]=true;
+	OSVars.ruleset[43][213]=true;
+	OSVars.ruleset[43][212]=true;
+	OSVars.ruleset[45][210]=true;
+	OSVars.ruleset[54][210]=true;
+	
+	
+    //
     //glider 0parts
     for(var k=1;k<9;k++){ 	
     	OSVars.ruleset[3*k-2][3*(k+1)]  = true;
@@ -278,23 +289,131 @@ var execute = function () {
     //
     
     //1parts+0
-    OSVars.ruleset[3][218]=true;
-    OSVars.ruleset[2][219]=true;    
-    OSVars.ruleset[7][89]=true;
-    OSVars.ruleset[7][111]=true;
+    //
+    OSVars.ruleset[7][28]=true;OSVars.ruleset[37][28]=true;
+    OSVars.ruleset[7][29]=true;OSVars.ruleset[37][29]=true;
+    //
+    
+    
 	OSVars.ruleset[12][3]=true;
-	OSVars.ruleset[12][218]=true;
     OSVars.ruleset[12][4]=true;
     OSVars.ruleset[10][4]=true;
-    OSVars.ruleset[206][15]=true;
+    OSVars.ruleset[15][206]=true;
+    OSVars.ruleset[3][218]=true;
+    OSVars.ruleset[2][219]=true;    
+    OSVars.ruleset[12][218]=true;
 
+	//upper
+	OSVars.ruleset[45][206]=true;
+	OSVars.ruleset[33][218]=true;
+	OSVars.ruleset[32][219]=true;
+	OSVars.ruleset[42][218]=true;
+	//
+
+    //connections
+    OSVars.ruleset[26][23]=true;
+    OSVars.ruleset[27][22]=true;
+    OSVars.ruleset[29][26]=true;
+    OSVars.ruleset[30][25]=true;
+    OSVars.ruleset[57][52]=true;
+    OSVars.ruleset[60][55]=true;
+    OSVars.ruleset[100][33]=true;OSVars.ruleset[100][31]=true;
+    OSVars.ruleset[103][98]=true;
+    OSVars.ruleset[100][37]=true;
+    //
+    
+    //upper
+    for(var k=1;k<=24;k++){
+		for(var l=1;l<=24;l++){
+			if(OSVars.ruleset[k][l]==true){OSVars.ruleset[k+30][l+30]=true;}
+		}
+	}
+    //
+    
+    
+    
+    //left-turn
+    OSVars.ruleset[62][59]=true;
+    OSVars.ruleset[63][58]=true;
+    OSVars.ruleset[64][62]=true;
+    OSVars.ruleset[64][66]=true;
+    OSVars.ruleset[65][67]=true;
+    OSVars.ruleset[66][63]=true;
+    OSVars.ruleset[69][63]=true;
+    OSVars.ruleset[69][58]=true;
+    OSVars.ruleset[70][58]=true;
+    OSVars.ruleset[71][68]=true;
+    OSVars.ruleset[70][72]=true;
+    OSVars.ruleset[71][73]=true;
+    //
+    
+    //2nd
+    //outside
+    OSVars.ruleset[76][57]=true;
+    OSVars.ruleset[79][49]=true;
+    OSVars.ruleset[79][43]=true;
+    OSVars.ruleset[79][45]=true;
+    //inside
+    OSVars.ruleset[77][82]=true;
+    OSVars.ruleset[78][81]=true;
+    OSVars.ruleset[74][83]=true;
+    OSVars.ruleset[85][80]=true;
+    OSVars.ruleset[88][79]=true;
+    //2nd-0
+    OSVars.ruleset[90][93]=true;
+    OSVars.ruleset[95][86]=true;
+    OSVars.ruleset[89][37]=true;
+    OSVars.ruleset[90][36]=true;
+    OSVars.ruleset[91][33]=true;
+    OSVars.ruleset[91][34]=true;
+   	//2nd-1
+   	OSVars.ruleset[91][86]=true;
+   	OSVars.ruleset[94][89]=true;
+    OSVars.ruleset[97][92]=true;
+    //2nd-0-low
+    OSVars.ruleset[120][7]=true;
+    OSVars.ruleset[121][6]=true;
+    OSVars.ruleset[121][3]=true;
+    OSVars.ruleset[121][4]=true;
+    
+    
+    //2nd-low
+    OSVars.ruleset[106][27]=true;OSVars.ruleset[106][25]=true;
+    OSVars.ruleset[106][101]=true;
+    for(var k=74;k<=97;k++){
+		for(var l=74;l<=97;l++){
+			if(OSVars.ruleset[k][l]==true){OSVars.ruleset[k+30][l+30]=true;}
+		}
+	}
+    //2nd-low-outside
+    OSVars.ruleset[109][19]=true;
+    OSVars.ruleset[109][13]=true;
+    OSVars.ruleset[109][15]=true;
+    OSVars.ruleset[108][19]=true;
+    //
+    
+    //
+    //right turn
+    OSVars.ruleset[130][1]=true;
+    OSVars.ruleset[131][136]=true;
+    OSVars.ruleset[133][128]=true;
+    OSVars.ruleset[139][134]=true;
+    OSVars.ruleset[140][138]=true;
+    OSVars.ruleset[142][134]=true;
+    OSVars.ruleset[143][141]=true;
+    OSVars.ruleset[144][142]=true;
+    OSVars.ruleset[145][143]=true;
+    OSVars.ruleset[148][142]=true;
+    OSVars.ruleset[151][146]=true;
+    
+    
     //Completion
     for(var i=0;i<300;i++){
-    	for(var j=0;j<100;j++){
+    	for(var j=0;j<300;j++){
     		if(OSVars.ruleset[i][j] == true){OSVars.ruleset[j][i]  = true;}
     	}
    	}
-    
+    //
     // RuleSet おわり
     /*
      * 
@@ -315,7 +434,7 @@ var execute = function () {
 
     for(i=0 ; i<OSVars.step  ; i++){
 	var p = OSVars.w_path[ i ];
-	var bead = OSVars.occupied[p.x][p.y]
+	var bead = OSVars.occupied[p.x][p.y];
 	var str = '';
 
 	str = str.concat('occupied[' + p.x + '][' + p.y + '] == ');
