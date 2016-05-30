@@ -233,11 +233,14 @@ var execute = function () {
         ////////////////////
 	//RuleSet
   //////////////////////////
-    OSVars.ruleset[28][3]=true;OSVars.ruleset[33][28]=true;
+    OSVars.ruleset[33][28]=true;
     OSVars.ruleset[3][149]=true;
-    OSVars.ruleset[3][29]=true;OSVars.ruleset[33][29]=true;
+    OSVars.ruleset[3][150]=true;
+    OSVars.ruleset[33][29]=true;
+    
+    
     //1part
-    OSVars.ruleset[219][3]=true;OSVars.ruleset[219][33]=true;
+    OSVars.ruleset[3][122]=true;OSVars.ruleset[33][92]=true;
     OSVars.ruleset[6][2]=true;
     OSVars.ruleset[8][4]=true;
     OSVars.ruleset[1][9]=true;
@@ -248,30 +251,31 @@ var execute = function () {
     OSVars.ruleset[24][16]=true;
     OSVars.ruleset[14][11]=true;
     //outside
-    OSVars.ruleset[6][222]=true;
-    OSVars.ruleset[6][213]=true;
-    OSVars.ruleset[12][222]=true;
-    OSVars.ruleset[7][223]=true;
-    OSVars.ruleset[5][222]=true;
-    OSVars.ruleset[7][212]=true;
-    OSVars.ruleset[13][213]=true;
-    OSVars.ruleset[13][212]=true;
-    OSVars.ruleset[15][210]=true;
-    OSVars.ruleset[24][210]=true;
+    OSVars.ruleset[6][125]=true;
+    OSVars.ruleset[6][116]=true;
+    OSVars.ruleset[12][125]=true;
+   	OSVars.ruleset[7][125]=true;OSVars.ruleset[37][95]=true;
+    OSVars.ruleset[5][125]=true;
+    OSVars.ruleset[7][115]=true;
+    OSVars.ruleset[13][116]=true;
+    OSVars.ruleset[13][115]=true;
+    OSVars.ruleset[15][113]=true;
+    OSVars.ruleset[24][113]=true;
+    
+    
     
     //
 	//upper outside
-	OSVars.ruleset[36][222]=true;
-	OSVars.ruleset[36][213]=true;
-	OSVars.ruleset[42][222]=true;
-	OSVars.ruleset[37][223]=true;
-	OSVars.ruleset[35][222]=true;
-	OSVars.ruleset[37][212]=true;
-	OSVars.ruleset[43][213]=true;
-	OSVars.ruleset[43][212]=true;
-	OSVars.ruleset[45][210]=true;
-	OSVars.ruleset[54][210]=true;
-	
+	OSVars.ruleset[36][95]=true;
+	OSVars.ruleset[36][86]=true;
+	OSVars.ruleset[42][95]=true;
+	//OSVars.ruleset[37][96]=true;
+	OSVars.ruleset[35][95]=true;
+	OSVars.ruleset[37][85]=true;
+	OSVars.ruleset[43][86]=true;
+	OSVars.ruleset[43][85]=true;
+	OSVars.ruleset[45][83]=true;
+	OSVars.ruleset[54][83]=true;
 	
     //
     //glider 0parts
@@ -292,25 +296,26 @@ var execute = function () {
     
     //1parts+0
     //
-    OSVars.ruleset[7][28]=true;OSVars.ruleset[37][28]=true;
-    OSVars.ruleset[7][29]=true;OSVars.ruleset[37][29]=true;
+    OSVars.ruleset[7][149]=true;OSVars.ruleset[37][28]=true;
+    OSVars.ruleset[7][150]=true;OSVars.ruleset[37][29]=true;
     //
     
     
 	OSVars.ruleset[12][3]=true;
     OSVars.ruleset[12][4]=true;
     OSVars.ruleset[10][4]=true;
-    OSVars.ruleset[15][206]=true;
-    OSVars.ruleset[3][218]=true;//OSVars.ruleset[6][218]=true;
-    OSVars.ruleset[2][219]=true;    
-    OSVars.ruleset[12][218]=true;
-
+    
+    
+	OSVars.ruleset[3][121]=true;
+	OSVars.ruleset[2][122]=true;
+	OSVars.ruleset[12][121]=true;
+	
 	//upper
-	OSVars.ruleset[45][206]=true;
-	OSVars.ruleset[33][218]=true;
-	OSVars.ruleset[32][219]=true;
-	OSVars.ruleset[42][218]=true;
+	OSVars.ruleset[33][91]=true;
+	OSVars.ruleset[32][92]=true;
+	OSVars.ruleset[42][91]=true;
 	//
+	
 
     //connections
     OSVars.ruleset[26][23]=true;
@@ -324,6 +329,10 @@ var execute = function () {
     OSVars.ruleset[103][98]=true;
     OSVars.ruleset[100][37]=true;
     OSVars.ruleset[100][91]=true;
+    OSVars.ruleset[100][95]=true;
+    OSVars.ruleset[99][92]=true;
+    OSVars.ruleset[100][30]=true;
+    OSVars.ruleset[28][100]=true;
     //
     
     //upper
@@ -364,34 +373,42 @@ var execute = function () {
     OSVars.ruleset[74][83]=true;
     OSVars.ruleset[85][80]=true;
     OSVars.ruleset[88][79]=true;
+    OSVars.ruleset[88][80]=true;
+    
     
     //2nd-0
     OSVars.ruleset[90][93]=true;
     OSVars.ruleset[95][86]=true;
     OSVars.ruleset[90][37]=true;
-    OSVars.ruleset[91][36]=true;
+    OSVars.ruleset[89][37]=true;
     OSVars.ruleset[91][33]=true;
+    OSVars.ruleset[87][94]=true;
     OSVars.ruleset[90][34]=true;
+    OSVars.ruleset[90][31]=true;
    	//2nd-1
+   	OSVars.ruleset[94][38]=true;
+   	OSVars.ruleset[93][96]=true;
+   	
    	OSVars.ruleset[91][86]=true;
+   	OSVars.ruleset[93][97]=true;
    	OSVars.ruleset[94][89]=true;
     OSVars.ruleset[97][92]=true;
+    
     OSVars.ruleset[120][117]=true;
-    /* backup
-    OSVars.ruleset[91][86]=true;
-   	OSVars.ruleset[94][89]=true;
-    OSVars.ruleset[97][92]=true;
-    */
+    OSVars.ruleset[90][87]=true;
+    OSVars.ruleset[98][96]=true;
     //2nd-0-low
-    OSVars.ruleset[119][7]=true;
     OSVars.ruleset[120][7]=true;
     OSVars.ruleset[120][6]=true;
-    //OSVars.ruleset[121][6]=true;
     OSVars.ruleset[121][3]=true;
     OSVars.ruleset[120][4]=true;
-    OSVars.ruleset[121][1]=true;
-    OSVars.ruleset[122][3]=true;
-   
+    
+    //OSVars.ruleset[121][1]=true;
+    OSVars.ruleset[122][149]=true;
+    //OSVars.ruleset[28][92]=true;
+    
+   	
+   	
     //2nd-low
     OSVars.ruleset[106][27]=true;OSVars.ruleset[106][25]=true;
     OSVars.ruleset[106][101]=true;
@@ -417,15 +434,33 @@ var execute = function () {
     OSVars.ruleset[140][138]=true;
     OSVars.ruleset[142][134]=true;
     OSVars.ruleset[143][141]=true;
-    OSVars.ruleset[144][142]=true;
+	OSVars.ruleset[144][142]=true;
     OSVars.ruleset[145][143]=true;
     OSVars.ruleset[148][142]=true;
     OSVars.ruleset[151][146]=true;
+    OSVars.ruleset[151][147]=true;
+    //next
     
-    
+    for(var i=1;i<57;i++){
+    	for(var j=74;j<152;j++){
+    		if(OSVars.ruleset[i][j] == true){OSVars.ruleset[i+151][j]  = true;}
+    	}
+   	}
+	for(var i=1;i<12;i++){
+    	for(var j=149;j<152;j++){
+    		if(OSVars.ruleset[i][j] == true){OSVars.ruleset[i+151][j]  = true;}
+    	}
+   	}    
+    for(var i=1;i<152;i++){
+    	for(var j=1;j<152;j++){
+    		if(OSVars.ruleset[i][j] == true){OSVars.ruleset[i+151][j+151]  = true;}
+    	}
+   	}
+   	
+   	//
     //Completion
-    for(var i=0;i<300;i++){
-    	for(var j=0;j<300;j++){
+    for(var i=0;i<500;i++){
+    	for(var j=0;j<500;j++){
     		if(OSVars.ruleset[i][j] == true){OSVars.ruleset[j][i]  = true;}
     	}
    	}
