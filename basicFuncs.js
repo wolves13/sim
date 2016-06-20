@@ -508,7 +508,6 @@ var countAvailableHbonds = function( folding_route, provisionalMaxH, img ){
     var greedyBonding = function (index, abandandList, tmpOccupied){
 	// 引数: abandanedList は, 結ばないと決めたhbond形成可能ヶ所を記憶.
 	var i;
-
 	// ownIndexで示される高分子が, oppositeIndexで示される高分子とのhbond形成を禁止されているか.
 	var isAbandaned = function ( ownIndex, oppositeIndex ){
 	    if ( abandanedList[ ownIndex ] ) {
@@ -516,13 +515,11 @@ var countAvailableHbonds = function( folding_route, provisionalMaxH, img ){
 	    }
 	    return false; 
 	}
-
 	// 2番目の高分子から, 貪欲的にhbondを数える.
 	for(i = index; i<delta; i++){
 	    p = folding_route[i];
 	    bNum = tmpOccupied[p.x][p.y].bondNum;   // 自分の残りarity
 	    
-
 	    // 暫定の最大数に到達不可とわかった時点で, 数えるのをやめる.
 	    if (  N + ((delta-i) * alpha) < provisionalMaxH ) {
 		break;

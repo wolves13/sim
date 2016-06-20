@@ -5,10 +5,10 @@
 
 /*  グローバル変数定義  */
 
-UNIT_DIST_X = 15;
-UNIT_DIST_Y = 15;
+UNIT_DIST_X = 20;
+UNIT_DIST_Y = 20;
 
-CIRCLE_RADIUS = 6  // 6, 6.5, 7 are suitable...?
+CIRCLE_RADIUS = 7;  // 6, 6.5, 7 are suitable...?
 ANGLE_IN_OCS = Math.PI / 6;
 
 TEST = 0;
@@ -23,7 +23,7 @@ var sleep = function( t ){
 	d2 = new Date().getTime();
     }
     return;
-}
+};
 
 // xy 直交座標の描画(とりあえず)
 var drawGrid = function(context, color, stepx, stepy, gridOrigin) {
@@ -106,7 +106,7 @@ var drawBeadType = function(x, y, beadType, context, color){
     var text = beadType.toString();
     var centerP = getPointOnOCS(x, y);
 
-    context.font = '4px century';               // ここでbeadType のfontを決定してる.
+    context.font = '8px century';               // ここでbeadType のfontを決定してる.
     context.textBaseline = 'middle';    
     context.textAlign = 'center';
     context.fillStyle = color ? color : 'black';
