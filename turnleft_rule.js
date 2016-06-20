@@ -235,18 +235,25 @@ var execute = function () {
     OSVars.ruleset[953][3]=true;
     OSVars.ruleset[952][2]=true;
     
-    OSVars.ruleset[107][5]=true;
-    OSVars.ruleset[108][4]=true;
-    OSVars.ruleset[108][5]=true;
-    OSVars.ruleset[7][4]=true;
-    OSVars.ruleset[1][8]=true;
-    OSVars.ruleset[9][6]=true;
-    OSVars.ruleset[2][7]=true;
+    OSVars.ruleset[107][3]=true;
+    OSVars.ruleset[108][2]=true;
+    OSVars.ruleset[108][3]=true;
+    OSVars.ruleset[952][5]=true;
+    OSVars.ruleset[800][5]=true;
+    OSVars.ruleset[953][6]=true;
+    OSVars.ruleset[107][10]=true;
+    OSVars.ruleset[12][8]=true;
     
-    for(var i=0;i<2;i++){
+    OSVars.ruleset[4][7]=true;
+    
+    OSVars.ruleset[6][104]=true;
+    OSVars.ruleset[12][103]=true;
+    OSVars.ruleset[10][3]=true;
+    
+    for(var i=0;i<3;i++){
     	OSVars.ruleset[3*i+1][3*(i+2)]=true;
+    	//OSVars.ruleset[3*i+2][3*(i+2)-1]=true;
     }
-    OSVars.ruleset[2][5]=true;
     
     
     

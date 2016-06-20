@@ -54,15 +54,20 @@ initOccupied( INITIAL_GRID_SIZE_X, INITIAL_GRID_SIZE_Y );
 
 
 // occupied配列の初期設定(seed)
+setSeed(21, 10 , { beadType: 900, index : -3, bondNum : 0 } );
+
 
 setSeed(17, 12 , { beadType: 1000, index : -3, bondNum : 0 } );
-setSeed(18, 13 , { beadType: 951, index : -3, bondNum : 0 } );
+setSeed(17, 13 , { beadType: 800, index : -3, bondNum : 0 } );
+setSeed(16, 12 , { beadType: 1000, index : -3, bondNum : 0 } );
+setSeed(16, 13 , { beadType: 1000, index : -3, bondNum : 0 } );
+
+setSeed(18, 13 , { beadType: 953, index : -3, bondNum : 0 } );
 setSeed(18, 12 , { beadType: 952, index : -3, bondNum : 0 } );
-setSeed(17, 11 , { beadType: 953, index : -3, bondNum : 0 } );
+setSeed(17, 11 , { beadType: 951, index : -3, bondNum : 0 } );
 
-
-//1part
 /*
+//1part
 setSeed(20, 10 , { beadType: 107, index : -3, bondNum : 0 } );
 setSeed(19, 10 , { beadType: 108, index : -3, bondNum : 0 } );
 setSeed(18, 10 , { beadType: 109, index : -3, bondNum : 0 } );
@@ -76,7 +81,7 @@ setSeed(18, 10 , { beadType: 109, index : -3, bondNum : 0 } );
 setSeed(17, 10 , { beadType: 110, index : -3, bondNum : 0 } );
 
 OSVars.w_path = [
-    {x: 18, y: 13}
+    {x: 17, y: 11}
 ];
 
 
