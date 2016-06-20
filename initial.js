@@ -57,6 +57,7 @@ initOccupied( INITIAL_GRID_SIZE_X, INITIAL_GRID_SIZE_Y );
 
 
 
+
 setSeed(28, 7 , { beadType: 0, index : -3, bondNum : 0 } );
 setSeed(29, 7 , { beadType: 0, index : -3, bondNum : 0 } );
 

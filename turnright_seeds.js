@@ -61,10 +61,18 @@ setSeed(18, 12 , { beadType: 952, index : -3, bondNum : 0 } );
 setSeed(17, 11 , { beadType: 951, index : -3, bondNum : 0 } );
 
 
-setSeed(20, 10 , { beadType: 104, index : -3, bondNum : 0 } );
-setSeed(19, 10 , { beadType: 103, index : -3, bondNum : 0 } );
-setSeed(18, 10 , { beadType: 102, index : -3, bondNum : 0 } );
-setSeed(17, 10 , { beadType: 101, index : -3, bondNum : 0 } );
+setSeed(20, 10 , { beadType: 107, index : -3, bondNum : 0 } );
+setSeed(19, 10 , { beadType: 108, index : -3, bondNum : 0 } );
+setSeed(18, 10 , { beadType: 109, index : -3, bondNum : 0 } );
+setSeed(17, 10 , { beadType: 110, index : -3, bondNum : 0 } );
+
+//0part
+setSeed(20, 10 , { beadType: 103, index : -3, bondNum : 0 } );
+setSeed(19, 10 , { beadType: 104, index : -3, bondNum : 0 } );
+setSeed(18, 10 , { beadType: 109, index : -3, bondNum : 0 } );
+setSeed(17, 10 , { beadType: 110, index : -3, bondNum : 0 } );
+//
+
 
 OSVars.w_path = [
     {x: 17, y: 11}
