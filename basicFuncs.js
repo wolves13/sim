@@ -25,7 +25,7 @@ var Bead = function( beadType, index, bondNum ){
     this.addBondNum = function(){
 	bondNum++;
     };
-}
+};
 
 
 // 限定的な利用.
@@ -787,7 +787,7 @@ var enumFoldings = function( firstPoint ){
 	hbondOpposite      :  optFirstPointHbondPos,
 	firstPointHbondPos :  firstPointHbondPos,
 	nonDetFlag         :  flag
-    }
+    };
 };
 
 // 1step の最適化を行う.

@@ -5,10 +5,10 @@
 
 /*  グローバル変数定義  */
 
-UNIT_DIST_X = 15;
-UNIT_DIST_Y = 15;
+UNIT_DIST_X = 20;
+UNIT_DIST_Y = 20;
 
-CIRCLE_RADIUS = 6  // 6, 6.5, 7 are suitable...?
+CIRCLE_RADIUS = 7.5;  // 6, 6.5, 7 are suitable...?
 ANGLE_IN_OCS = Math.PI / 6;
 
 TEST = 0;
@@ -23,7 +23,7 @@ var sleep = function( t ){
 	d2 = new Date().getTime();
     }
     return;
-}
+};
 
 // xy 直交座標の描画(とりあえず)
 var drawGrid = function(context, color, stepx, stepy, gridOrigin) {
@@ -66,6 +66,22 @@ var getPointOnOCS = function (x, y) {
 	y : (y * UNIT_DIST_Y)
     };
 };
+
+
+//testbluecircle
+var drawBeadCircleBlue = function(x, y, context, color) {
+    context.save();
+
+    var centerP = getPointOnOCS(x, y);
+    context.strokeStyle =  color ? color : 'orange' ;
+    context.beginPath();
+    context.arc(centerP.x, centerP.y, CIRCLE_RADIUS, 0, Math.PI*2 );
+    context.stroke();
+
+    context.restore();
+};
+//
+
 
 var drawBeadCircle = function(x, y, context, color) {
     context.save();
@@ -115,6 +131,24 @@ var drawBeadType = function(x, y, beadType, context, color){
     context.restore();
 };
 
+
+//testblue
+var drawBeadTypeBlue = function(x, y, beadType, context, color){
+    context.save();
+    var text = beadType.toString();
+    var centerP = getPointOnOCS(x, y);
+
+    context.font = '4px century';               // ここでbeadType のfontを決定してる.
+    context.textBaseline = 'middle';    
+    context.textAlign = 'center';
+    context.fillStyle = color ? color : 'orange';
+
+    context.fillText(text, centerP.x, centerP.y);
+    context.restore();
+};
+//
+
+
 var drawHbond  = function(pA, pB, context, color) {
     context.save();
 
@@ -159,6 +193,7 @@ var reflectFixedPath = function( ) {
 	    drawChain( previous, p, overCtx);
 	}
     }
+
 };
 
 var reflectFixedHbond = function() {

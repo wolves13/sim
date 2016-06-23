@@ -1,0 +1,110 @@
+/*
+//test+500ver
+//0part upper
+
+setSeed(20, 7 , { beadType: 574, index : -3, bondNum : 0 } );
+setSeed(21, 7 , { beadType: 583, index : -3, bondNum : 0 } );
+setSeed(22, 7 , { beadType: 584, index : -3, bondNum : 0 } );
+setSeed(23, 7 , { beadType: 585, index : -3, bondNum : 0 } );
+setSeed(24, 7 , { beadType: 586, index : -3, bondNum : 0 } );
+setSeed(25, 7 , { beadType: 595, index : -3, bondNum : 0 } );
+setSeed(26, 7 , { beadType: 596, index : -3, bondNum : 0 } );
+setSeed(27, 7 , { beadType: 597, index : -3, bondNum : 0 } );
+
+//
+
+//1part upper
+
+setSeed(20, 7 , { beadType: 574, index : -3, bondNum : 0 } );
+setSeed(21, 7 , { beadType: 583, index : -3, bondNum : 0 } );
+setSeed(22, 7 , { beadType: 584, index : -3, bondNum : 0 } );
+setSeed(23, 7 , { beadType: 585, index : -3, bondNum : 0 } );
+setSeed(24, 7 , { beadType: 586, index : -3, bondNum : 0 } );
+setSeed(25, 7 , { beadType: 591, index : -3, bondNum : 0 } );
+setSeed(26, 7 , { beadType: 592, index : -3, bondNum : 0 } );
+setSeed(27, 7 , { beadType: 597, index : -3, bondNum : 0 } );
+
+
+//0parts lower
+
+setSeed(30, 7 , { beadType: 604, index : -3, bondNum : 0 } );
+setSeed(31, 7 , { beadType: 613, index : -3, bondNum : 0 } );
+setSeed(32, 7 , { beadType: 614, index : -3, bondNum : 0 } );
+setSeed(33, 7 , { beadType: 615, index : -3, bondNum : 0 } );
+setSeed(34, 7 , { beadType: 616, index : -3, bondNum : 0 } );
+setSeed(35, 7 , { beadType: 625, index : -3, bondNum : 0 } );
+setSeed(36, 7 , { beadType: 626, index : -3, bondNum : 0 } );
+setSeed(37, 7 , { beadType: 627, index : -3, bondNum : 0 } );
+
+
+//1parts lower
+
+setSeed(30, 7 , { beadType: 604, index : -3, bondNum : 0 } );
+setSeed(31, 7 , { beadType: 613, index : -3, bondNum : 0 } );
+setSeed(32, 7 , { beadType: 614, index : -3, bondNum : 0 } );
+setSeed(33, 7 , { beadType: 615, index : -3, bondNum : 0 } );
+setSeed(34, 7 , { beadType: 616, index : -3, bondNum : 0 } );
+setSeed(35, 7 , { beadType: 621, index : -3, bondNum : 0 } );
+setSeed(36, 7 , { beadType: 622, index : -3, bondNum : 0 } );
+setSeed(37, 7 , { beadType: 627, index : -3, bondNum : 0 } );
+
+*/
+
+
+
+
+
+
+
+
+//original
+
+//0part upper
+
+setSeed(20, 7 , { beadType: 74, index : -3, bondNum : 0 } );
+setSeed(21, 7 , { beadType: 83, index : -3, bondNum : 0 } );
+setSeed(22, 7 , { beadType: 84, index : -3, bondNum : 0 } );
+setSeed(23, 7 , { beadType: 85, index : -3, bondNum : 0 } );
+setSeed(24, 7 , { beadType: 86, index : -3, bondNum : 0 } );
+setSeed(25, 7 , { beadType: 95, index : -3, bondNum : 0 } );
+setSeed(26, 7 , { beadType: 96, index : -3, bondNum : 0 } );
+setSeed(27, 7 , { beadType: 97, index : -3, bondNum : 0 } );
+
+//
+
+//1part upper
+/*
+setSeed(20, 7 , { beadType: 74, index : -3, bondNum : 0 } );
+setSeed(21, 7 , { beadType: 83, index : -3, bondNum : 0 } );
+setSeed(22, 7 , { beadType: 84, index : -3, bondNum : 0 } );
+setSeed(23, 7 , { beadType: 85, index : -3, bondNum : 0 } );
+setSeed(24, 7 , { beadType: 86, index : -3, bondNum : 0 } );
+setSeed(25, 7 , { beadType: 91, index : -3, bondNum : 0 } );
+setSeed(26, 7 , { beadType: 92, index : -3, bondNum : 0 } );
+setSeed(27, 7 , { beadType: 97, index : -3, bondNum : 0 } );
+*/
+
+//0parts lower
+/*
+setSeed(30, 7 , { beadType: 104, index : -3, bondNum : 0 } );
+setSeed(31, 7 , { beadType: 113, index : -3, bondNum : 0 } );
+setSeed(32, 7 , { beadType: 114, index : -3, bondNum : 0 } );
+setSeed(33, 7 , { beadType: 115, index : -3, bondNum : 0 } );
+setSeed(34, 7 , { beadType: 116, index : -3, bondNum : 0 } );
+setSeed(35, 7 , { beadType: 125, index : -3, bondNum : 0 } );
+setSeed(36, 7 , { beadType: 126, index : -3, bondNum : 0 } );
+setSeed(37, 7 , { beadType: 127, index : -3, bondNum : 0 } );
+*/
+
+//1parts lower
+
+setSeed(30, 7 , { beadType: 104, index : -3, bondNum : 0 } );
+setSeed(31, 7 , { beadType: 113, index : -3, bondNum : 0 } );
+setSeed(32, 7 , { beadType: 114, index : -3, bondNum : 0 } );
+setSeed(33, 7 , { beadType: 115, index : -3, bondNum : 0 } );
+setSeed(34, 7 , { beadType: 116, index : -3, bondNum : 0 } );
+setSeed(35, 7 , { beadType: 121, index : -3, bondNum : 0 } );
+setSeed(36, 7 , { beadType: 122, index : -3, bondNum : 0 } );
+setSeed(37, 7 , { beadType: 127, index : -3, bondNum : 0 } );
+
+//
