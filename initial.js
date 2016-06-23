@@ -125,15 +125,15 @@ setSeed(37, 7 , { beadType: 927, index : -3, bondNum : 0 } );
 
 
 //start point
-setSeed(39, 8 , { beadType: 949, index : -3, bondNum : 0 } );//start points +0
-setSeed(40, 10 , { beadType: 951, index : -3, bondNum : 0 } );//start points +1
+setSeed(39, 8 , { beadType: 964, index : -3, bondNum : 0 } );//start points +0
+setSeed(40, 10 , { beadType: 966, index : -3, bondNum : 0 } );//start points +1
 OSVars.w_path = [
     {x: 40, y: 10}
 ];
 
 
 
-setSeed(39, 9 , { beadType: 950, index : -3, bondNum : 0 } );
+setSeed(39, 9 , { beadType: 965, index : -3, bondNum : 0 } );
 setSeed(41, 10 , { beadType: 946, index : -3, bondNum : 0 } );//+1
 
 

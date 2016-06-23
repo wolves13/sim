@@ -233,10 +233,9 @@ var execute = function () {
 	//RuleSet
   //////////////////////////
     OSVars.ruleset[33][28]=true;
-    OSVars.ruleset[3][949]=true;//
-    OSVars.ruleset[3][950]=true;//
+    OSVars.ruleset[3][964]=true;//
+    OSVars.ruleset[3][965]=true;//
     OSVars.ruleset[33][29]=true;
-    
     
     //1part
     
@@ -267,12 +266,9 @@ var execute = function () {
     
     //
 	//upper outside
-	
-	//test+800ver
 	OSVars.ruleset[36][895]=true;
 	OSVars.ruleset[36][886]=true;
 	OSVars.ruleset[42][895]=true;
-	//OSVars.ruleset[37][596]=true;
 	OSVars.ruleset[35][895]=true;
 	OSVars.ruleset[37][885]=true;
 	OSVars.ruleset[43][886]=true;
@@ -312,8 +308,8 @@ var execute = function () {
     
 	//test+800ver
 	//
-	OSVars.ruleset[7][950]=true;
-	OSVars.ruleset[7][949]=true;
+	OSVars.ruleset[7][964]=true;
+	OSVars.ruleset[7][965]=true;
 	OSVars.ruleset[3][921]=true;
 	OSVars.ruleset[2][922]=true;
 	OSVars.ruleset[12][921]=true;
@@ -391,7 +387,6 @@ var execute = function () {
     OSVars.ruleset[90][93]=true;
     OSVars.ruleset[95][86]=true;
     OSVars.ruleset[90][37]=true;
-    //OSVars.ruleset[89][37]=true;
     OSVars.ruleset[91][33]=true;
     OSVars.ruleset[87][94]=true;
     OSVars.ruleset[90][34]=true;
@@ -416,8 +411,7 @@ var execute = function () {
     OSVars.ruleset[120][4]=true;
    	OSVars.ruleset[121][1]=true;
    	OSVars.ruleset[121][4]=true;
-    //OSVars.ruleset[122][149]=true;
-    //OSVars.ruleset[28][92]=true;
+    
     
    	
    	
@@ -436,55 +430,71 @@ var execute = function () {
     OSVars.ruleset[109][15]=true;
     OSVars.ruleset[108][19]=true;
     //
-    
+    /////////////////////////////////////////////////////////////////////////////////////////
     //
     //right turn
+    OSVars.ruleset[130][7]=true;
     OSVars.ruleset[130][1]=true;
+    OSVars.ruleset[130][3]=true;
+    OSVars.ruleset[130][966]=true;
+    OSVars.ruleset[130][964]=true;
+    OSVars.ruleset[130][121]=true;
     OSVars.ruleset[131][136]=true;
     OSVars.ruleset[133][128]=true;
     OSVars.ruleset[139][134]=true;
-    OSVars.ruleset[140][138]=true;
-    OSVars.ruleset[142][134]=true;
-    OSVars.ruleset[143][141]=true;
-	OSVars.ruleset[144][142]=true;
-    OSVars.ruleset[145][143]=true;
-    OSVars.ruleset[148][142]=true;
-    OSVars.ruleset[151][146]=true;
-    OSVars.ruleset[151][147]=true;
+    OSVars.ruleset[142][137]=true;
+    OSVars.ruleset[145][140]=true;
+    OSVars.ruleset[146][144]=true;
+    OSVars.ruleset[147][145]=true;
+    OSVars.ruleset[148][146]=true;
+    OSVars.ruleset[149][147]=true;
+    OSVars.ruleset[150][147]=true;
+    OSVars.ruleset[151][149]=true;
+    OSVars.ruleset[154][145]=true;
+    OSVars.ruleset[157][152]=true;
+    OSVars.ruleset[160][155]=true;
+    OSVars.ruleset[163][158]=true;
+    OSVars.ruleset[166][161]=true;
     //next
     
     for(var i=1;i<57;i++){
     	for(var j=874;j<929;j++){
     		if(OSVars.ruleset[i][j] == true){
-    			OSVars.ruleset[i+151][j-800]  = true;
-    			for(var n=2;n<5;n++){
-    				var k=151*n;
-    				OSVars.ruleset[i+151*n][j+(151*(n-1))-800]  = true;
+    			
+    			for(var n=1;n<4;n++){
+    				var k=166*n;
+    				OSVars.ruleset[130+166*n][964+166*(n-1)-800]=true;
+    				OSVars.ruleset[130+166*n][966+166*(n-1)-800]=true;
+    				OSVars.ruleset[i+166*n][j+(166*(n-1))-800]  = true;
     			}
     		}
     	}
    	}
    	
 	for(var i=1;i<12;i++){
-    	for(var j=949;j<952;j++){
+    	for(var j=964;j<967;j++){
     		if(OSVars.ruleset[i][j] == true){
-    			OSVars.ruleset[i+151][j-800]  = true;
-    			var num=i+151;
+    			OSVars.ruleset[i+166][j-800]  = true;
+    			var num=i+166;
     			var num2=j-800;
     			for(var n=1;n<4;n++){
-    				OSVars.ruleset[num+151*n][num2+n*151]  = true;
+    				OSVars.ruleset[num+166*n][num2+n*166]  = true;
     			}
     			}
     	}
    	}
-    for(var n=1;n<5;n++){
-    	for(var i=1;i<152;i++){
-    		for(var j=1;j<152;j++){
-    			if(OSVars.ruleset[i][j] == true){OSVars.ruleset[i+151*n][j+151*n]  = true;}
+    for(var n=1;n<4;n++){
+    	for(var i=1;i<167;i++){
+    		for(var j=1;j<167;j++){
+    			if(OSVars.ruleset[i][j] == true){OSVars.ruleset[i+166*n][j+166*n]  = true;}
     		}
    		}
    }
    
+   ///////////////
+   
+   
+   /////////////
    	//
     //Completion
     for(var i=0;i<1000;i++){
@@ -492,7 +502,66 @@ var execute = function () {
     		if(OSVars.ruleset[i][j] == true){OSVars.ruleset[j][i]  = true;}
     	}
    	}
-    //
+    ///////////////////////////////////////////////////////////////
+    
+   //turnpoint 
+    for(var i=587;i<665;i++){
+   	for(var j=587;j<665;j++){
+   		if(OSVars.ruleset[i][j]==true)OSVars.ruleset[i][j]=false;
+   	}
+   }
+   for(var i=496;i<540;i++){
+   	for(var j=587;j<630;j++){
+   		if(OSVars.ruleset[i][j]==true){
+   			OSVars.ruleset[i][j]=false;
+   			OSVars.ruleset[j][i]=false;
+   		}
+   	}
+   }
+   OSVars.ruleset[585][588]=false;
+   OSVars.ruleset[584][589]=false;
+   OSVars.ruleset[588][585]=false;
+   OSVars.ruleset[589][584]=false;
+   OSVars.ruleset[584][593]=false;
+   OSVars.ruleset[593][584]=false;
+   //up low change
+   for(var i=0;i<3;i++){
+    	OSVars.ruleset[3*i+1+586][3*(i+2)+586]=true;
+    }
+   OSVars.ruleset[598][594]=true; 
+   OSVars.ruleset[590][593]=true;
+   OSVars.ruleset[590][594]=true;
+   OSVars.ruleset[596][589]=true;
+   OSVars.ruleset[598][595]=true;
+   
+   OSVars.ruleset[535][589]=true;
+   OSVars.ruleset[536][588]=true;
+   OSVars.ruleset[536][589]=true;
+   OSVars.ruleset[592][532]=true;
+   OSVars.ruleset[593][532]=true;
+   OSVars.ruleset[598][531]=true;
+   
+   OSVars.ruleset[584][589]=true;//953-584
+   OSVars.ruleset[585][588]=true;//952-585
+   OSVars.ruleset[585][591]=true;//952-585
+   OSVars.ruleset[583][591]=true;//800-583
+   OSVars.ruleset[584][592]=true;//953-584
+   
+   //////////////////////////////////////////////
+   //Completion
+    for(var i=0;i<1000;i++){
+    	for(var j=0;j<1000;j++){
+    		if(OSVars.ruleset[i][j] == true){OSVars.ruleset[j][i]  = true;}
+    	}
+   	}
+    ///////////////////////////////////////////////////////////////
+   
+   
+   
+   
+   
+   
+    //////////////////////////
     // RuleSet おわり
     /*
      * 
