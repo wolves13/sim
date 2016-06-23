@@ -263,7 +263,11 @@ var execute = function () {
     OSVars.ruleset[13][916]=true;//
     OSVars.ruleset[15][914]=true;//
     OSVars.ruleset[24][914]=true;//
-    //OSVars.ruleset[3][927]=true;OSVars.ruleset[33][897]=true;//
+    OSVars.ruleset[4][921]=true;OSVars.ruleset[34][891]=true;//
+    OSVars.ruleset[4][922]=true;
+    OSVars.ruleset[6][950]=true;
+    OSVars.ruleset[36][29]=true;
+    
     //
     
     //
@@ -313,12 +317,11 @@ var execute = function () {
 	OSVars.ruleset[7][950]=true;
 	OSVars.ruleset[7][949]=true;
 	OSVars.ruleset[3][922]=true;//
-	//OSVars.ruleset[2][927]=true;//
+	
 	OSVars.ruleset[12][922]=true;//
 	//
 	//upper
 	OSVars.ruleset[33][892]=true;//
-	//OSVars.ruleset[32][897]=true;//
 	OSVars.ruleset[42][892]=true;//
 	//
 	 
@@ -427,21 +430,23 @@ var execute = function () {
     OSVars.ruleset[133][128]=true;
     OSVars.ruleset[139][134]=true;
     OSVars.ruleset[140][138]=true;
-    OSVars.ruleset[142][134]=true;
+    OSVars.ruleset[141][139]=true;
+    OSVars.ruleset[142][140]=true;
     OSVars.ruleset[143][141]=true;
-	OSVars.ruleset[144][142]=true;
+	OSVars.ruleset[144][141]=true;
     OSVars.ruleset[145][143]=true;
-    OSVars.ruleset[148][142]=true;
-    
+    OSVars.ruleset[148][139]=true;
+	OSVars.ruleset[151][146]=true;
+	    
     //next
     
      for(var i=1;i<57;i++){
-    	for(var j=874;j<929;j++){
+    	for(var j=883;j<929;j++){
     		if(OSVars.ruleset[i][j] == true){
-    			OSVars.ruleset[i+148][j-800]  = true;
+    			OSVars.ruleset[i+151][j-800]  = true;
     			for(var n=2;n<5;n++){
-    				var k=148*n;
-    				OSVars.ruleset[i+148*n][j+(148*(n-1))-800]  = true;
+    				var k=151*n;
+    				OSVars.ruleset[i+151*n][j+(151*(n-1))-800]  = true;
     			}
     		}
     	}
@@ -451,19 +456,19 @@ var execute = function () {
 	for(var i=1;i<12;i++){
     	for(var j=949;j<952;j++){
     		if(OSVars.ruleset[i][j] == true){
-    			OSVars.ruleset[i+148][j-800]  = true;
-    			var num=i+148;
+    			OSVars.ruleset[i+151][j-800]  = true;
+    			var num=i+151;
     			var num2=j-800;
     			for(var n=1;n<4;n++){
-    				OSVars.ruleset[num+148*n][num2+n*148]  = true;
+    				OSVars.ruleset[num+151*n][num2+n*151]  = true;
     			}
     			}
     	}
    	}
     for(var n=1;n<5;n++){
-    	for(var i=1;i<148;i++){
-    		for(var j=1;j<148;j++){
-    			if(OSVars.ruleset[i][j] == true){OSVars.ruleset[i+148*n][j+148*n]  = true;}
+    	for(var i=1;i<152;i++){
+    		for(var j=1;j<152;j++){
+    			if(OSVars.ruleset[i][j] == true){OSVars.ruleset[i+151*n][j+151*n]  = true;}
     		}
    		}
    }
