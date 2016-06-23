@@ -253,32 +253,32 @@ var execute = function () {
     //outside
     
     //test+800ver
-    OSVars.ruleset[6][926]=true;
-    OSVars.ruleset[6][916]=true;
-    OSVars.ruleset[12][926]=true;
-   	OSVars.ruleset[7][926]=true;OSVars.ruleset[37][896]=true;
-    OSVars.ruleset[5][926]=true;
-    OSVars.ruleset[7][915]=true;
-    OSVars.ruleset[13][916]=true;
-    OSVars.ruleset[13][915]=true;
-    OSVars.ruleset[15][913]=true;
-    OSVars.ruleset[24][913]=true;
-    OSVars.ruleset[3][922]=true;OSVars.ruleset[33][892]=true;
+    OSVars.ruleset[6][926]=true;//
+    OSVars.ruleset[6][925]=true;//
+    OSVars.ruleset[12][926]=true;//
+   	OSVars.ruleset[7][926]=true;OSVars.ruleset[37][896]=true;//
+    OSVars.ruleset[5][926]=true;//
+    OSVars.ruleset[7][916]=true;//
+    OSVars.ruleset[13][925]=true;//
+    OSVars.ruleset[13][916]=true;//
+    OSVars.ruleset[15][914]=true;//
+    OSVars.ruleset[24][914]=true;//
+    //OSVars.ruleset[3][927]=true;OSVars.ruleset[33][897]=true;//
     //
     
     //
 	//upper outside
 	
 	//test+800ver
-	OSVars.ruleset[36][895]=true;
-	OSVars.ruleset[36][886]=true;
-	OSVars.ruleset[42][895]=true;
-	OSVars.ruleset[35][895]=true;
-	OSVars.ruleset[37][885]=true;
-	OSVars.ruleset[43][886]=true;
-	OSVars.ruleset[43][885]=true;
-	OSVars.ruleset[45][883]=true;
-	OSVars.ruleset[54][883]=true;
+	for(var k=1;k<=24;k++){
+		for(var l=912;l<=929;l++){
+			if(OSVars.ruleset[k][l]==true){
+				OSVars.ruleset[k+30][l-30]=true;
+				}else if(OSVars.ruleset[l][k]==true){
+					OSVars.ruleset[k+30][l-30]=true;
+				}
+		}
+	}
 	
     //
     
@@ -300,9 +300,7 @@ var execute = function () {
     
     //1parts+0
     //
-    
     OSVars.ruleset[37][28]=true;
-   
     OSVars.ruleset[37][29]=true;
     //
 	OSVars.ruleset[12][3]=true;
@@ -314,16 +312,14 @@ var execute = function () {
 	//outside
 	OSVars.ruleset[7][950]=true;
 	OSVars.ruleset[7][949]=true;
-	OSVars.ruleset[3][921]=true;
-	OSVars.ruleset[2][922]=true;
-	OSVars.ruleset[12][921]=true;
+	OSVars.ruleset[3][922]=true;//
+	//OSVars.ruleset[2][927]=true;//
+	OSVars.ruleset[12][922]=true;//
 	//
 	//upper
-	
-	
-	OSVars.ruleset[33][891]=true;
-	OSVars.ruleset[32][892]=true;
-	OSVars.ruleset[42][891]=true;
+	OSVars.ruleset[33][892]=true;//
+	//OSVars.ruleset[32][897]=true;//
+	OSVars.ruleset[42][892]=true;//
 	//
 	 
 	
@@ -442,10 +438,10 @@ var execute = function () {
      for(var i=1;i<57;i++){
     	for(var j=874;j<929;j++){
     		if(OSVars.ruleset[i][j] == true){
-    			OSVars.ruleset[i+151][j-800]  = true;
+    			OSVars.ruleset[i+148][j-800]  = true;
     			for(var n=2;n<5;n++){
-    				var k=151*n;
-    				OSVars.ruleset[i+151*n][j+(151*(n-1))-800]  = true;
+    				var k=148*n;
+    				OSVars.ruleset[i+148*n][j+(148*(n-1))-800]  = true;
     			}
     		}
     	}
@@ -455,19 +451,19 @@ var execute = function () {
 	for(var i=1;i<12;i++){
     	for(var j=949;j<952;j++){
     		if(OSVars.ruleset[i][j] == true){
-    			OSVars.ruleset[i+151][j-800]  = true;
-    			var num=i+151;
+    			OSVars.ruleset[i+148][j-800]  = true;
+    			var num=i+148;
     			var num2=j-800;
     			for(var n=1;n<4;n++){
-    				OSVars.ruleset[num+151*n][num2+n*151]  = true;
+    				OSVars.ruleset[num+148*n][num2+n*148]  = true;
     			}
     			}
     	}
    	}
     for(var n=1;n<5;n++){
-    	for(var i=1;i<152;i++){
-    		for(var j=1;j<152;j++){
-    			if(OSVars.ruleset[i][j] == true){OSVars.ruleset[i+151*n][j+151*n]  = true;}
+    	for(var i=1;i<148;i++){
+    		for(var j=1;j<148;j++){
+    			if(OSVars.ruleset[i][j] == true){OSVars.ruleset[i+148*n][j+148*n]  = true;}
     		}
    		}
    }
